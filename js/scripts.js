@@ -7,6 +7,14 @@ $(document).ready(function() {
       userAnswer += parseInt($("select#" + language).val());
     });
 
+    if (userAnswer <= 3){
+      $("#javaScript").show();
+    } else if (userAnswer === 4 && userAnswer === 8 && userAnswer === 9) {
+      $("#python").show();
+    } else if (userAnswer === 0 && userAnswer === 5 && userAnswer === 7 && userAnswer === 9) {
+      $("#ruby").show();
+    }
+
     
     
     
