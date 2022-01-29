@@ -7,13 +7,12 @@ $(document).ready(function() {
       userAnswer += parseInt($("select#" + language).val());
     });
 
-    if (userAnswer >= 4){
-      $("#javaScript").show();
-    } else if (userAnswer === 5 || userAnswer === 8 && userAnswer === 9) {
+    if (userAnswer <= 3) {
       $("#python").show();
-    } else if (userAnswer === 0 && userAnswer === 5 && userAnswer === 7 && userAnswer === 9) {
-      $("#ruby").show();
     }
+
+    
+    
 
     
     
