@@ -24,7 +24,7 @@ _A website that displays a survey of questions that uses HTML, CSS, JavaScript, 
 - _Access your computer's terminal shell(Git Bash for Windows or Mac for terminal)_
 - _In terminal:_
 - `Go to the current directory where you want the cloned directory to be added.`
-- `Clone the repository by using the command $ git clone https://github.com/kylemiller13/Portfolio`
+- `Clone the repository by using the command $ git clone https://github.com/kylemiller13/languageSuggester`
 - `Lastly, open index.html`
 
 ## Known Bugs
