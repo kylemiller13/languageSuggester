@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Language Suggester</title>
@@ -11,10 +11,13 @@
     <h1>Language Suggester</h1>
     <p>Let us help you find what programming language is best for you!</p>
     <div class="container">
-      <p id="highlight">Take this quick survery to find out what lanaguage is best for you!</p>
-      <form id="lanaguageForm">
+      <p id="highlight">
+        Take this quick survey to find out what lanaguage is best for you!
+      </p>
+      <form id="language">
         <div class="form-group">
-          <label for="whyProgramming">Why do you want to learn to program?</label>
+          <label for="whyProgramming"
+            >Why do you want to learn to program?</label>
           <select class="form-control" id="whyProgramming">
             <option value="3">Career advancement</option>
             <option value="2">For fun</option>
@@ -38,7 +41,9 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="newOrOld">Do you want to learn a new or old language?</label>
+          <label for="newOrOld"
+            >Do you want to learn a new or old language?</label
+          >
           <select class="form-control" id="newOrOld">
             <option value="2">New</option>
             <option value="1">Old</option>
@@ -52,22 +57,52 @@
             <option value="2">A box of rocks</option>
           </select>
         </div>
-        <button type="submit" class="btn center-block"> Click here to see what lanaguage is best for you!</button>
+        <button type="submit" class="btn center-block">
+          Click here to see what lanaguage is best for you!
+        </button>
       </form>
     </div>
-  <!-- userAnswer results-->
-    <div id="language1">
+    <!-- userAnswer results-->
+    <div id="javaScript">
       <div class="row">
         <div class="col-sm-6 mx-auto">
           <h2>Your language is:</h2>
           <h3>JavaScript</h3>
-          <img src="img/javascript.png" class="center-block" alt="JavaScript logo">
+          <img
+            src="img/javascript.png"
+            class="center-block"
+            alt="JavaScript logo"
+          />
         </div>
       </div>
     </div>
-  
-  
-  
-  
+    <div id="python">
+      <div class="row">
+        <div class="col-sm-6 mx-auto">
+          <h2>Your language is:</h2>
+          <h3>Python</h3>
+          <img
+            src="img/python1.jpg"
+            class="center-block"
+            width="400"
+            alt="Python logo"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="ruby">
+      <div class="row">
+        <div class="col-sm-6 mx-auto">
+          <h2>Your language is:</h2>
+          <h3>Ruby</h3>
+          <img
+            src="img/Ruby.jpg"
+            class="center-block"
+            width="400"
+            alt="Ruby logo"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
