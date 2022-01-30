@@ -9,15 +9,15 @@
   </head>
   <body>
     <h1>Language Suggester</h1>
-    <p>Let us help you find what programming language is best for you!</p>
     <div class="container">
       <p id="highlight">
-        Take this quick survey to find out what lanaguage is best for you!
+        Take this quick survey to find out what language is best for you!
       </p>
       <form id="language">
         <div class="form-group">
           <label for="whyProgramming"
-            >Why do you want to learn to program?</label>
+            >Why do you want to learn to program?</label
+          >
           <select class="form-control" id="whyProgramming">
             <option value="3">Career advancement</option>
             <option value="2">For fun</option>
@@ -27,16 +27,16 @@
         <div class="form-group">
           <label for="skillLevel">What skill level are you?</label>
           <select class="form-control" id="skillLevel">
-            <option value="3">Beginner</option>
+            <option value="1">Beginner</option>
             <option value="2">Intermediate</option>
-            <option value="1">Expert</option>
+            <option value="3">Expert</option>
           </select>
         </div>
         <div class="form-group">
           <label for="typeOfProgram">What would you like to program?</label>
           <select class="form-control" id="typeOfProgram">
-            <option value="3">Web Applications</option>
-            <option value="2">Desktop Apllications</option>
+            <option value="2">Web Applications</option>
+            <option value="3">Desktop Apllications</option>
             <option value="1">Databases</option>
           </select>
         </div>
@@ -45,8 +45,9 @@
             >Do you want to learn a new or old language?</label
           >
           <select class="form-control" id="newOrOld">
-            <option value="2">New</option>
-            <option value="1">Old</option>
+            <option value="3">Generally New</option>
+            <option value="1">Today</option>
+            <option value="2">Old</option>
           </select>
         </div>
         <div class="form-group">
@@ -54,12 +55,20 @@
           <select class="form-control" id="smart">
             <option value="3">Very</option>
             <option value="2">A little</option>
-            <option value="2">A box of rocks</option>
+            <option value="1">A box of rocks</option>
           </select>
         </div>
-        <button type="submit" class="btn center-block">
-          Click here to see what lanaguage is best for you!
-        </button>
+        <div class="row">
+          <div class="col-4">
+          </div>
+          <div class="col-4">
+            <button type="submit" class="btn">
+              Click here to see what lanaguage is best for you!
+            </button>
+          </div>
+          <div class="col-4">
+          </div>
+        </div>
       </form>
     </div>
     <!-- userAnswer results-->
@@ -67,12 +76,12 @@
       <div class="row">
         <div class="col-sm-6 mx-auto">
           <h2>Your language is:</h2>
-          <h3>JavaScript</h3>
           <img
             src="img/javascript.png"
             class="center-block"
             alt="JavaScript logo"
           />
+          <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages</p>
         </div>
       </div>
     </div>
@@ -80,13 +89,13 @@
       <div class="row">
         <div class="col-sm-6 mx-auto">
           <h2>Your language is:</h2>
-          <h3>Python</h3>
           <img
             src="img/python1.jpg"
             class="center-block"
             width="400"
             alt="Python logo"
           />
+          <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. </p>
         </div>
       </div>
     </div>
@@ -94,13 +103,13 @@
       <div class="row">
         <div class="col-sm-6 mx-auto">
           <h2>Your language is:</h2>
-          <h3>Ruby</h3>
           <img
-            src="img/Ruby.jpg"
+            src="img/ruby.jpg"
             class="center-block"
             width="400"
             alt="Ruby logo"
           />
+          <p><strong>Ruby</strong> is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms.</p>
         </div>
       </div>
     </div>
