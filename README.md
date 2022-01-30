@@ -4,7 +4,7 @@
 
 #### This is a website that displays a survey 
 
-## _[GitHub Pages](https://kylemiller13.github.io/Portfolio/)_
+## _[GitHub Pages](https://kylemiller13.github.io/languageSuggester/)_
 
 ## Technologies Used
 
