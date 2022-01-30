@@ -33,5 +33,5 @@ _A website that displays a survey of questions that uses HTML, CSS, JavaScript, 
 
 ## License
 
-- N/A Copyright (c) 1/14/2022, Kyle Miller
+- N/A Copyright (c) 1/29/2022, Kyle Miller
 - _[MIT](https://opensource.org/licenses/MIT)_
