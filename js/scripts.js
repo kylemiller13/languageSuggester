@@ -5,26 +5,22 @@ $(document).ready(function () {
       "skillLevel",
       "typeOfProgram",
       "newOrOld",
-      "smart",
+      "smart"
     ];
     let userAnswer = 0;
 
     language.forEach(function (language) {
       userAnswer += parseInt($("select#" + language).val());
     });
-
+    $("#python").hide();
+    $("#javaScript").hide();
+    $("#ruby").hide();
     if (userAnswer <= 7) {
       $("#python").show();
-      $("#javaScript").hide();
-      $("#ruby").hide();
     } else if (userAnswer >= 12) {
       $("#javaScript").show();
-      $("#python").hide();
-      $("#ruby").hide();
     } else if (userAnswer >= 8 || userAnswer <= 11){
       $("#ruby").show();
-      $("#python").hide();
-      $("#javaScript").hide();
     }
     event.preventDefault();
   });
